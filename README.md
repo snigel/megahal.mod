@@ -1,0 +1,2 @@
+# megahal
+ Megahal Eggdrop Module
