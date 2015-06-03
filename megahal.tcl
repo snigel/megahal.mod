@@ -58,11 +58,13 @@ set maxreplywords 30
 
 learningmode $learnmode
 
+#Remove binding, since botnick is set in megahal.c
+#TODO check if unbinding is required
 # bind the botnick
-catch "unbind pub - hal: *pub:hal:"
-bind pub - ${nick}: *pub:hal:
-catch "unbind dcc - hal *dcc:hal"
-bind dcc - $nick *dcc:hal
+#catch "unbind pub - hal: *pub:hal:"
+#bind pub - ${nick}: *pub:hal:
+#catch "unbind dcc - hal *dcc:hal"
+#bind dcc - $nick *dcc:hal
 set megabotnick $nick
 
 # Save and trim the brain once every hour
