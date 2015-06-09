@@ -14,7 +14,7 @@ set floodmega 10:60
 
 # Which channels NOT to respond in when the botnick is mentioned (use space delimited list)
 # Note: this includes the 'botnick: ' learning trigger
-set respondexcludechans ""
+set respondexcludechans "general random"
 
 # Which keywords besides the botnick should be responded to (use space delimited list)
 # Examples can include alternative bot nicknames, people's names, special words like hello, music, etc
