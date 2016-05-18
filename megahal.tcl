@@ -14,7 +14,7 @@ set floodmega 10:60
 
 # Which channels NOT to respond in when the botnick is mentioned (use space delimited list)
 # Note: this includes the 'botnick: ' learning trigger
-set respondexcludechans "general #general"
+set respondexcludechans "general #general random #random"
 
 # Which keywords besides the botnick should be responded to (use space delimited list)
 # Examples can include alternative bot nicknames, people's names, special words like hello, music, etc
@@ -25,7 +25,7 @@ set responsekeywords ""
 set talkfreq 40
 
 # Which channels NOT to talk in in response to all chatter (use space delimited list)
-set talkexcludechans "general #general"
+set talkexcludechans "general #general random #random"
 
 # How often should it learn phrases that are said in the channels?
 # Set to # of lines or to 0 to turn this off.
