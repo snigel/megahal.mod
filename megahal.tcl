@@ -7,10 +7,10 @@ set learnmode on
 
 # What is the max size the brain should grow to?
 # Set to the max number of nodes not ram
-set maxsize 100000
+set maxsize 10000000
 
 # Flood protection: how many max lines per how many seconds should it respond to?
-set floodmega 10:60
+set floodmega 60:60
 
 # Which channels NOT to respond in when the botnick is mentioned (use space delimited list)
 # Note: this includes the 'botnick: ' learning trigger
@@ -38,7 +38,7 @@ set learnfreq 100
 # Valid values are 1-5
 # 2 is highly recommended, 3 is much more boring but it will also produce much more coherent sentences
 # 1 will make it babble incoherently a lot of the time and 4-5 will turn it into a parrot instead of a fun AI
-set maxcontext 2
+set maxcontext 3
 
 # Surprise mode on or off (0/1)
 # This changes the way it constructs sentences. 
@@ -50,7 +50,7 @@ set surprise 1
 # This can help avoid long incoherent sentences that seem to run forever without making sense
 # It limits the AI to create shorter sentences
 # Recommended setting is about 25-40, set to 0 to allow unlimited size
-set maxreplywords 30
+set maxreplywords 25
 
 
 #####################################################################
