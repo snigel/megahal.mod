@@ -68,7 +68,7 @@ set megabotnick $nick
 
 # Save every minute. How heavy can it be?
 # Save and trim the brain once every hour
-bind time - "*/5 * * * *" auto_brainsave
+bind time - "* * * * *" auto_brainsave
 proc auto_brainsave {min b c d e} {
   global maxsize
   trimbrain $maxsize
