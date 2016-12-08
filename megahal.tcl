@@ -31,7 +31,6 @@ set talkexcludechans "general #general random #random"
 # Set to # of lines or to 0 to turn this off.
 set learnfreq 100
 
-
 # The following settings change the 'psychotic' level or personality of the AI slightly
 
 # Max context size
@@ -69,8 +68,8 @@ set megabotnick $nick
 
 # Save every minute. How heavy can it be?
 # Save and trim the brain once every hour
-bind time - "* * * * *" auto_brainsave
-proc auto_brainsave {min b c d e} { 
+bind time - "*/5 * * * *" auto_brainsave
+proc auto_brainsave {min b c d e} {
   global maxsize
   trimbrain $maxsize
   savebrain
