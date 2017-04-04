@@ -43,7 +43,7 @@ set maxcontext 3
 # This changes the way it constructs sentences. 
 # If on, it tries to find unconventional combinations of words which means much more fun but also more incoherent sentences
 # If off, sentences are safer but more parrot-like so this is only recommended if the brain size is huge )in which case the bot has many safe options to use).
-set surprise 1
+set surprise 0
 
 # Max reply words
 # This can help avoid long incoherent sentences that seem to run forever without making sense
