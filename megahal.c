@@ -178,8 +178,8 @@
  */
 
 /* change these to your bot name */
-#define BOTNICK "hal"
-#define BOTNICK2 "hal:"
+#define BOTNICK "netid"
+#define BOTNICK2 "netid:"
 
 #define MAKING_MEGAHAL
 #define MODULE_NAME "MegaHAL"
