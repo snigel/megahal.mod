@@ -66,9 +66,9 @@ learningmode $learnmode
 #bind dcc - $nick *dcc:hal
 set megabotnick $nick
 
-# Save every minute. How heavy can it be?
+# Save every 15minutes.
 # Save and trim the brain once every hour
-bind time - "* * * * *" auto_brainsave
+bind time - "*/15 * * * *" auto_brainsave
 proc auto_brainsave {min b c d e} {
   global maxsize
   trimbrain $maxsize
